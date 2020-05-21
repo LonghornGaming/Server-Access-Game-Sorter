@@ -33,26 +33,28 @@ quickSort(games, 0, len(games)-1)
 
 
 # print games
-print("**__Games A-E__**")
-for i in games:
-    cha = i[0]
-    if cha >= 'A' and cha <= 'E':
-        print(i)
+cha = ''
+hitA = 0
+hitF = 0
+hitN = 0
+hitS = 0
+hasInvalid = 0
 
-print("\n**__Games F-M__**")
 for i in games:
     cha = i[0]
-    if cha >= 'F' and cha <= 'M':
-        print(i)
-
-print("\n**__Games N-R__**")
-for i in games:
-    cha = i[0]
-    if cha >= 'N' and cha <= 'R':
-        print(i)
-
-print("\n**__Games S-Z__**")
-for i in games:
-    cha = i[0]
-    if cha >= 'S' and cha <= 'Z':
+    
+    if cha >= 'A' and hitA == 0:
+        print("**__Games A-E__**")
+        hitA = 1
+    elif cha >= 'F' and hitF == 0:
+        print("\n**__Games F-M__**")
+        hitF = 1
+    elif cha >= 'N' and hitN == 0:
+        print("\n**__Games N-R__**")
+        hitN = 1
+    elif cha >= 'S' and hitS == 0:
+        print("\n**__Games S-Z__**")
+        hitS = 1
+    
+    if cha >= 'A' and cha <= 'Z':
         print(i)

@@ -1,7 +1,5 @@
 # Server-Access-Game-Sorter
-a ^⁽ˢᶜᵘᶠᶠᵉᵈ⁾ automated game sorting algo because daniel needs to learn python and doesn't want to alphabetize manually
-
-**only prints games with capital, alphabetical first letters
+a ^⁽ˢᶜᵘᶠᶠᵉᵈ⁾ automated game sorting algo because daniel needs to learn python and didn't want to alphabetize manually
 
 ### **Run this with** `> python3 main.py`
 
@@ -9,7 +7,8 @@ a ^⁽ˢᶜᵘᶠᶠᵉᵈ⁾ automated game sorting algo because daniel needs t
 > \> this
 
 ### file.txt
-Game list; just make sure they're each on their own line
+Game list; each game must start with a capital letter or it won't be printed. 
+Additionally, each must be on its own line *and there's a newline at the end*.
 
 ### main.py
 The script, which does the following:
