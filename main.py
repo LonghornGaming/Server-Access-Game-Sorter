@@ -1,10 +1,8 @@
 # literally just run quicksort on some data read from stdin
 
-import sys
-
 # read files + write to list "games"
 file = open('file.txt')
-games = file.readlines()
+games = file.read().splitlines()
 
 # QuickSort partition method
 def split(arr, low, high): 
@@ -33,6 +31,26 @@ def quickSort(arr, low, high):
 # call QuickSort
 quickSort(games, 0, len(games)-1)
 
-# print result
+print("Games A-E")
 for i in games:
-    print(i)
+    cha = i[0]
+    if cha >= 'A' and cha <= 'E':
+        print(i)
+
+print("\nGames F-M")
+for i in games:
+    cha = i[0]
+    if cha >= 'F' and cha <= 'M':
+        print(i)
+
+print("\nGames N-R")
+for i in games:
+    cha = i[0]
+    if cha >= 'N' and cha <= 'R':
+        print(i)
+
+print("\nGames S-Z")
+for i in games:
+    cha = i[0]
+    if cha >= 'S' and cha <= 'Z':
+        print(i)
