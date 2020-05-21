@@ -31,25 +31,25 @@ def quickSort(arr, low, high):
 # call QuickSort
 quickSort(games, 0, len(games)-1)
 
-print("Games A-E")
+print("**__Games A-E__**")
 for i in games:
     cha = i[0]
     if cha >= 'A' and cha <= 'E':
         print(i)
 
-print("\nGames F-M")
+print("\n**__Games F-M__**")
 for i in games:
     cha = i[0]
     if cha >= 'F' and cha <= 'M':
         print(i)
 
-print("\nGames N-R")
+print("\n**__Games N-R__**")
 for i in games:
     cha = i[0]
     if cha >= 'N' and cha <= 'R':
         print(i)
 
-print("\nGames S-Z")
+print("\n**__Games S-Z__**")
 for i in games:
     cha = i[0]
     if cha >= 'S' and cha <= 'Z':
