@@ -31,6 +31,8 @@ def quickSort(arr, low, high):
 # call QuickSort
 quickSort(games, 0, len(games)-1)
 
+
+# print games
 print("**__Games A-E__**")
 for i in games:
     cha = i[0]
