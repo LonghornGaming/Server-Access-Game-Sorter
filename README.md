@@ -1,7 +1,7 @@
 # Server-Access-Game-Sorter
 a ^⁽ˢᶜᵘᶠᶠᵉᵈ⁾ automated game sorting algo because daniel needs to learn python and doesn't want to alphabetize manually
 
-### **Run this with** `python3 main.py`
+### **Run this with** `> python3 main.py`
 
 ### readme
 > \> this
