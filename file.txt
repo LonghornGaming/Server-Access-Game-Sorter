@@ -2,7 +2,7 @@ Apex Legends
 Beat Saber
 Brawl Stars
 Call of Duty
-CS:GO
+Counter Strike: Global Offensive
 Dota 2
 Fortnite
 Hearthstone
@@ -14,14 +14,14 @@ Osu!
 Overwatch
 PUBG
 Rocket League
-Rainbow 6 Siege
+Rainbow Six: Siege
 Smash Melee
 Smash Ultimate
 Starcraft 2
 Destiny
 Minecraft
 Pokémon
-Supercell (Games except Brawl Stars)
+Supercell (Clash of Clans, etc.)
 FIFA
 Animal Crossing
 Valorant
